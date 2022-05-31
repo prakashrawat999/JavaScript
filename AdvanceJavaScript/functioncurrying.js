@@ -22,3 +22,5 @@ sum(5)(7)(9);
 //Another method using fat arrow function
 const addition = (n1) => (n2) => (n3) => console.log(`fat arrow function : ${n1+n2+n3}`); 
 addition(5)(9)(8); //output : fat arrow function : 22
+
+

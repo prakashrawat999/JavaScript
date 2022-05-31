@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+<body>
+    <div id="container">
+    </div>
+    <script>
+        const container = document.querySelector('#container');
+
+        const request = new XMLHttpRequest();
+        request.open('GET',"https://restcountries.com/v2/name/india");
+        request.send();
+
+        //to get the response
+        request.addEventListener('load',funtion() {
+            const [data] = JSON.parse(this.responseText);
+            //console.log(data.capital);
+            const htmlData = `
+            <img src="${data.flag}" alt="" class="card-body-img">
+            ${data.name}
+            ${data.capital}
+            ${data.nativeName}
+            ${data.population}
+            ${data.flag}
+            ${data.demonym}
+
+            `;
+
+            container.insertAdjacentHTML("afterbegin",htmlData)
+        })
+            //console.log(this.responseText);
+    </script>
+</body>
+</html>
