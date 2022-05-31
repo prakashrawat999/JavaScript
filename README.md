@@ -9,22 +9,24 @@
 
 
 # ES1	ECMAScript 1 (1997)	First edition
+
 # ES2	ECMAScript 2 (1998)	Editorial changes
-# ES3	ECMAScript 3 (1999)	Added regular expressions
-'''
+
+# ES3	ECMAScript 3 (1999)	
+```bash
 Added try/catch
 Added switch
 Added do-while
-'''
+```
 # ES5	ECMAScript 5 (2009)
-'''
+```bash
 Added "strict mode"
 Added JSON support
 Added String.trim()
 Added Array.isArray()
 Added Array iteration methods
 Allows trailing commas for object literals
-'''
+```
 # ES6	ECMAScript 2015
 '''
 Added let and const
