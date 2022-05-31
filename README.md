@@ -28,30 +28,43 @@ Added Array iteration methods
 Allows trailing commas for object literals
 ```
 # ES6	ECMAScript 2015
-'''
+'''bash
 Added let and const
+Added Template String
 Added default parameter values
 Added Array.find()
+Added Destructring
 Added Array.findIndex()
+Added Arrow Function()
+Added Rest / Spread Operator
 '''
 # ECMAScript 2016
-'''
+'''bash
 Added exponential operator (**)
 Added Array.includes()
 '''
 # ECMAScript 2017
-'''
+'''bash
 Added string padding
 Added Object.entries()
 Added Object.values()
 Added async functions
-Added shared memory
 '''
-# ECMAScript 2018
-'''
+# ECMAScript 2018 ES9
+'''bash
 Added rest / spread properties
 Added asynchronous iteration
 Added Promise.finally()
 Additions to RegExp
-This tutorial covers every version of JavaScript:
- '''
+'''
+# ECMAScript 2019 ESNEXT in June 2019
+```bash
+Array.prototype{flat, flatmap}
+Object.froEntries()
+String.prototype{trimStart, trimEnd}
+```
+# ECMAScript 2020
+```bash
+Big Int
+Nullish Coalescing
+```
